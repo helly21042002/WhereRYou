@@ -1,5 +1,5 @@
 
-Take a look at our Site by visiting [WhereRyou.club](whereryou.club).
+##Take a look at our Site by visiting [WhereRyou.club](http://whereryou.club).
 
 _Do you feel bored walking to and from your classes by yourself?_
 _Or, in this hectic college life, do you find it difficult to connect with your friends?_
