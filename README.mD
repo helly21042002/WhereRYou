@@ -1,9 +1,11 @@
 
-##Take a look at our Site by visiting [WhereRyou.club](http://whereryou.club).
+## Take a look at our Site by visiting [WhereRyou.club](http://whereryou.club).
 
 _Do you feel bored walking to and from your classes by yourself?_
 _Or, in this hectic college life, do you find it difficult to connect with your friends?_
-Don't worry, ~~we have~~ Your friends have got you covered!!!
+
+### Don't worry, ~~we have~~ Your friends have got you covered!!!
+
 With the help of our program, you will be able to connect with your friends on your 
 college campus in a lot more effective manner.
 This app will evaluate information such as a friend's schedule, location, and details about their contacts to determine a convenient time for them to connect.
