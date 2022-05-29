@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179181060041",
+    "project_id": "whereryou-app",
+    "storage_bucket": "whereryou-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179181060041:android:e2c49ac8a4783bcc5d7218",
+        "android_client_info": {
+          "package_name": "com.example.whereryou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179181060041-ffmfrc3bg7rbsjm6u1sr5d6pbounku0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeM2pWkkUItmpvhHT5_12q2Xn9YJz7ZWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179181060041-ffmfrc3bg7rbsjm6u1sr5d6pbounku0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

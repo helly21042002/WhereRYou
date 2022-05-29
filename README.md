@@ -1,2 +1,0 @@
-# WhereRYou
-WomenTechies'22

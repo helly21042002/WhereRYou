@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/home"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:textColor="@color/black"
+            app:icon="@drawable/home"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/search"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:text="Search"
+            android:textColor="@color/black"
+            app:icon="@drawable/search"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/profile"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Profile"
+            android:textColor="@color/black"
+            app:icon="@drawable/profile"
+            app:iconTint="#000000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewintro"
+        android:layout_width="334dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="76dp"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/gointo"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Going to?"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewintro" />
+
+    <Button
+        android:id="@+id/setd"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
+        android:text="Set Destination"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gointo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
